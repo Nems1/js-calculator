@@ -1,2 +1,2 @@
 # js-calculator
-A beginner's basic Javascript problem that does simple arithmetics
+A beginner's basic Javascript program that does simple arithmetic operations
