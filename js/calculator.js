@@ -1,8 +1,6 @@
 'use strict'
 
-/* Basic arithmetic calculator without use of frentend 
-   that performs addition,subtraction,multiplication,
-   division */
+//  Basic arithmetic calculator that performs addition,subtraction,multiplication and division 
 
 //  function to perform additio
 
@@ -76,7 +74,7 @@ let add = (num1,num2) => {
 
  // Get user input
 
-   do {
+ 
      let num1 = parseFloat(prompt(`\n\tFirst Number:`));
      let num2 = parseFloat(prompt(`\n\t Second Number:`));
      let oper = prompt('Enter arithmetic operator (valid values=> -,+,/,*): ');
@@ -85,7 +83,7 @@ let add = (num1,num2) => {
 
     doCalculation(num1,num2,oper);
 
-    let yesNo = prompt('Do another operation y/n?').toLowerCase();
 
-   }while ( yesNo = 'y');
+
+
    
